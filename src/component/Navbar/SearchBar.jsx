@@ -4,7 +4,7 @@ import React from 'react'
 const SearchBar = () => {
   return (
     <div className="input-group  ">
-    <button className="btn btn-outline-secondary bg-slate-500 text-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">All</button>
+    <button className="btn btn-outline-secondary bg-slate-400 text-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">All</button>
     <ul className="dropdown-menu">
       <li><a className="dropdown-item" href="#">All Categories</a></li>
       <li><a className="dropdown-item" href="#">Alexa Skills</a></li>
